@@ -47,7 +47,7 @@ Overall Work-Life Balance:
 * P-Value: 0.7364156920838826
 * The correlation between the Work Environment and Work Life Balance of Employee is not significant
 
-* In this results, the correlation analysis of Employee’s Work Environment is does not affect to their Work Life Balance because the p value or probability value of their correlation is somewhat higher than alpha level of 0.05. and the correlation coefficient of our analysis on the above is ranging from 0 which means there is no relationship between the two variables of this analysis.
+* In this results, the correlation analysis of Employee’s Work Environment is does not affect to their Work Life Balance because the p value or probability value of their correlation is somewhat higher than alpha level of 0.05. and the correlation coefficient of our analysis on the above is ranging from 0 which means there is no relationship between the two variables of this analysis. Also in the results of the graph it shows how data of employees wokr environment is somewhat distributed fairly to their work life balance which shows that there's no association or relatonship between two variables because of the graph that they are not upward(positive correlation) or downward diagonal(negative correlation) plot.
 
 * Spearman Correlation - It is a type of correlation analysis that evaluates the strength and direction of monotonic relationship between two variables. And it is used for the variables whose data is represented as ordinal. 
 
@@ -59,3 +59,4 @@ Negative correlation(<0) means one variable increases while the other variable d
 
 * Tools used: VS Code, Python
 * Data Source: Kaggle.com
+* Graph Image Result: Correlation_analysis.png

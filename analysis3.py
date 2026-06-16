@@ -18,10 +18,31 @@ if p_value < 0.05:
 else:
     print("The correlation between the Work Environment and Work Life Balance of Employee is not significant")
 
+grouped = (
+    data.groupby(["WorkEnv", "WLB"])
+    .size()
+    .reset_index(name="Employee_Count")
+)
 
+sns.set_theme(style="whitegrid")
 
-sns.scatterplot(data=data, x="WorkEnv", y="WLB")
-plt.title(f"Scatter Plot (r={spearman_coef:.2f})")
+plt.figure(figsize=(10, 6))
+
+plt.scatter(
+    grouped["WorkEnv"],
+    grouped["WLB"],
+    s=grouped["Employee_Count"]*9,
+    c="red",
+    edgecolors="black",
+    alpha=0.6
+)
+plt.title(f"Spearman Scatter Plot of Correlation Between Employee's Work Environment and Work Life Balance(r={spearman_coef:.2f})")
+plt.xlabel("Work Environment", fontsize=12, fontweight="bold")
+plt.ylabel("Work Life Balance", fontsize=12, fontweight="bold")
+plt.xticks([1, 2, 3, 4, 5])
+plt.yticks([1, 2, 3, 4, 5])
+plt.tight_layout()
 plt.savefig("Correlation_analysis.png")
 plt.show()
+
 

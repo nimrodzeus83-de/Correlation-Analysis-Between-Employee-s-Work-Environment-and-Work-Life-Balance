@@ -42,7 +42,7 @@ Overall Work-Life Balance:
   
 # Findings:
 
-[!Alt Text](https://github.com/nimrodzeus83-de/Correlation-Analysis-Between-Employee-s-Work-Environment-and-Work-Life-Balance/blob/main/Correlation_analysis.png)
+![Alt Text](https://github.com/nimrodzeus83-de/Correlation-Analysis-Between-Employee-s-Work-Environment-and-Work-Life-Balance/blob/main/Correlation_analysis.png)
 
 * Spearman Correlation: 0.01
 * Correlation: 0.006122539759258789
@@ -64,8 +64,8 @@ Overall Work-Life Balance:
 
 * Tools used: VS Code, Python
 
-* Data Source:
+# Data Source:
 - <a href="https://github.com/nimrodzeus83-de/Correlation-Analysis-Between-Employee-s-Work-Environment-and-Work-Life-Balance/blob/main/employee.csv">Employee.csv</a>
 
-* Source Code:
+# Source Code:
 - <a href="https://github.com/nimrodzeus83-de/Correlation-Analysis-Between-Employee-s-Work-Environment-and-Work-Life-Balance/blob/main/analysis3.py">Correlation.py</a>

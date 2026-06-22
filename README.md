@@ -1,6 +1,9 @@
 # Summary:
 * In this report I used the Spearman’s Correlation Analysis between employee’s work environment and work life balance, to know if the work environment conditions(physical, mental, and cultural conditions) directly affect their life balance (well being, job satisfaction, and productivity) to know what are the steps that the management should consider like optimizing workplace resources, developing a healthy culture, boost engagement and employees job satisfaction which in return will help the management and their employees to have a productive job, preventing burnout and enhances employees job recruitment. The reason of using the spearman’s correlation analysis is to measure the strength, and direction of two variables, and it is a best choice of using this, if your data is not linear, not normally distributed, and it is designed for variables whose measured in an ordinal scales(eg.., surveys with Likert Scales, ranked preferences or medal standings), because the data that I’ve been gathered between work environment and work life balance  are ordinal scale.   
 
+# Scenario:
+ * In this report the management wants to know about how does the work environment their employee's experience can affect and associated to their work life balance outside of their work and the management collect a data that rates from 1 to 5 in employee's work environment and work life balance, for them to be able to know on how should they distribute the workloads to their employees and how to maintain the companies work ethics and culture, and how they can be able to improve and give much care about the employee's errands to their work.  
+
 * The data between work environment and work life balance are represented as 1-5 which is an ordinal data and we will consider it as follows:
 1. Work Environment (Agreement Scale)
  - 1 = Strongly Disagree
